@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "LikeHome",
-    eyebrow: "CMPE 165 - Team Project - Frontend Contribution",
+    eyebrow: "Frontend Contribution - Team Project",
     summary:
       "Contributed to the frontend of a CMPE 165 team project with a full-stack structure, including a TypeScript/CSS frontend and Python backend. My role focused on building and refining parts of the user-facing interface.",
     tags: ["Team Project", "Frontend", "TypeScript", "CSS", "Python Backend"],
@@ -9,17 +9,17 @@ const projects = [
     accent: "lavender"
   },
   {
-    title: "WanderPaw",
-    eyebrow: "Virtual Desktop Pet - Team Project",
+    title: "POE-Filter-Audio-Manage",
+    eyebrow: "Small Utility",
     summary:
-      "Designed and refined the UI for an interactive virtual desktop pet, including pet status, animations, and user actions such as feeding, playing, and monitoring health, hunger, and mood.",
-    tags: ["React", "JavaScript", "HTML", "CSS", "UI Design"],
-    url: "https://github.com/vvv017/WanderPaw",
+      "A local Path of Exile filter audio manager. It manages audio files in a selected folder, supports quick preview, filter-rule renaming, manual renaming, rule management, and duplicate handling by swapping names or moving the old file to a suffixed name.",
+    tags: ["JavaScript", "HTML", "CSS", "UI Design"],
+    url: "https://github.com/vvv017/POE-Filter-Audio-Manage",
     accent: "mint"
   },
   {
     title: "B.A.S.S.",
-    eyebrow: "Biometric Automobile Security System",
+    eyebrow: "Biometric Automobile Security System - Team Project",
     summary:
       "A Raspberry Pi-based vehicle access prototype that uses facial recognition to verify identity and enable secure, contactless door unlocking and ignition control.",
     tags: ["Raspberry Pi", "Facial Recognition", "JavaScript", "Security"],
@@ -39,8 +39,8 @@ const projects = [
 
 const repos = [
   {
-    name: "cmpe-165-likehome",
-    description: "CMPE 165 LikeHome team project with frontend and backend folders.",
+    name: "Likehome",
+    description: "LikeHome team project with frontend and backend folders.",
     language: "TypeScript / Python",
     updated: "Team repo",
     url: "https://github.com/arjunsudheer/cmpe-165-likehome"
@@ -56,7 +56,7 @@ const repos = [
     name: "BASS",
     description: "Biometric vehicle access prototype using facial recognition for authentication.",
     language: "JavaScript",
-    updated: "Mar 2026",
+    updated: "May 2026",
     url: "https://github.com/vvv017/BASS"
   },
   {
@@ -72,6 +72,13 @@ const repos = [
     language: "JavaScript",
     updated: "Sep 2024",
     url: "https://github.com/vvv017/WanderPaw"
+  },
+   {
+    name: "POE-Filter-Audio-Manage",
+    description: "Local Path of Exile filter audio manager.",
+    language: "JavaScript",
+    updated: "May 2026",
+    url: "https://github.com/vvv017/POE-Filter-Audio-Manage"
   }
 ];
 
