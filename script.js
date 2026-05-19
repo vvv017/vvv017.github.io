@@ -9,12 +9,12 @@ const projects = [
     accent: "lavender"
   },
   {
-    title: "POE-Filter-Audio-Manage",
+    title: "POE-Filter-Audio-Manager",
     eyebrow: "Small Utility",
     summary:
       "A local Path of Exile filter audio manager. It manages audio files in a selected folder, supports quick preview, filter-rule renaming, manual renaming, rule management, and duplicate handling by swapping names or moving the old file to a suffixed name.",
     tags: ["JavaScript", "HTML", "CSS", "UI Design"],
-    url: "https://github.com/vvv017/POE-Filter-Audio-Manage",
+    url: "https://github.com/vvv017/POE-Filter-Audio-Manager",
     accent: "mint"
   },
   {
@@ -74,11 +74,11 @@ const repos = [
     url: "https://github.com/vvv017/WanderPaw"
   },
    {
-    name: "POE-Filter-Audio-Manage",
+    name: "POE-Filter-Audio-Manager",
     description: "Local Path of Exile filter audio manager.",
     language: "JavaScript",
     updated: "May 2026",
-    url: "https://github.com/vvv017/POE-Filter-Audio-Manage"
+    url: "https://github.com/vvv017/POE-Filter-Audio-Manager"
   }
 ];
 
