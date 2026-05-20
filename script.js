@@ -106,7 +106,6 @@ function renderProjects() {
           <div class="tags">
             ${project.tags.map((tag) => `<span>${tag}</span>`).join("")}
           </div>
-          <a href="${project.url}" aria-label="Open ${project.title}">Open project</a>
           ${project.title === "Project Swarm" ? `<a href="${project.devlogUrl}" aria-label="View Devlog for ${project.title}" class="devlog-button">Devlog</a>` : ""}
         </article>
       `
