@@ -34,7 +34,16 @@ const projects = [
     tags: ["PowerShell", "Automation", "Utility"],
     url: "https://github.com/vvv017/bilibili-link-cleaner",
     accent: "sky"
-  }
+  },
+  {
+    title: "Project Swarm",
+    eyebrow: "Personal Project | Godot 4 | Procedural Systems | AI-assisted Development",
+    summary:
+      "An atmospheric late-night roadtrip game about driving toward a destination with someone beside you.",
+    tags: ["Godot4", "Indie Development", "Game"],
+    devlogUrl: "https://www.youtube.com/watch?v=bv0qrKVAqB8&list=PLXqCA3d5cOLfXsxVJ6nG1i8VzQtS53BgS&pp=sAgC",
+    accent: "lavender",
+       }
 ];
 
 const repos = [
@@ -98,6 +107,7 @@ function renderProjects() {
             ${project.tags.map((tag) => `<span>${tag}</span>`).join("")}
           </div>
           <a href="${project.url}" aria-label="Open ${project.title}">Open project</a>
+          ${project.title === "Project Swarm" ? `<a href="${project.devlogUrl}" aria-label="View Devlog for ${project.title}" class="devlog-button">Devlog</a>` : ""}
         </article>
       `
     )
