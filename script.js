@@ -1,93 +1,152 @@
 const projects = [
   {
-    title: "LikeHome",
-    eyebrow: "Frontend Contribution - Team Project",
+    title: "WhiteDragon",
+    eyebrow: "Owner · Maintainer · Current release 4.5.0",
     summary:
-      "Contributed to the frontend of a CMPE 165 team project with a full-stack structure, including a TypeScript/CSS frontend and Python backend. My role focused on building and refining parts of the user-facing interface.",
-    tags: ["Team Project", "Frontend", "TypeScript", "CSS", "Python Backend"],
-    url: "https://github.com/arjunsudheer/cmpe-165-likehome",
+      "A customizable expression-avatar userscript for ChatGPT. It switches expressions while responses stream, supports per-Project avatar packs, and keeps all user art in local browser storage.",
+    tags: ["JavaScript", "Userscript", "ChatGPT UI", "IndexedDB"],
+    links: [
+      { label: "View repository", url: "https://github.com/vvv017/WhiteDragon" }
+    ],
+    accent: "rose"
+  },
+  {
+    title: "Codex Neuro Dream Skin",
+    eyebrow: "Owner · Maintainer · Visual adaptation",
+    summary:
+      "An unofficial dark pixel-art theme for the Windows Codex desktop app, with reversible installation, local-only CDP injection, distinct screen artwork, and guarded restore flows.",
+    tags: ["PowerShell", "JavaScript", "CSS", "Windows"],
+    links: [
+      { label: "View repository", url: "https://github.com/vvv017/Codex-Neuro-Dream-Skin" }
+    ],
     accent: "lavender"
   },
   {
     title: "POE-Filter-Audio-Manager",
-    eyebrow: "Small Utility",
+    eyebrow: "Owner · Maintainer · Desktop utility",
     summary:
-      "A local Path of Exile filter audio manager. It manages audio files in a selected folder, supports quick preview, filter-rule renaming, manual renaming, rule management, and duplicate handling by swapping names or moving the old file to a suffixed name.",
-    tags: ["JavaScript", "HTML", "CSS", "UI Design"],
-    url: "https://github.com/vvv017/POE-Filter-Audio-Manager",
+      "A bilingual local audio manager for Path of Exile filters, with previews, rule-based renaming, duplicate handling, and a lightweight Windows desktop build through Pake and Tauri.",
+    tags: ["JavaScript", "Tauri / Pake", "Local Files", "Bilingual UI"],
+    links: [
+      { label: "View repository", url: "https://github.com/vvv017/POE-Filter-Audio-Manager" }
+    ],
     accent: "mint"
   },
   {
     title: "B.A.S.S.",
-    eyebrow: "Biometric Automobile Security System - Team Project",
+    eyebrow: "Team member · SJSU CMPE 195",
     summary:
-      "A Raspberry Pi-based vehicle access prototype that uses facial recognition to verify identity and enable secure, contactless door unlocking and ignition control.",
-    tags: ["Raspberry Pi", "Facial Recognition", "JavaScript", "Security"],
-    url: "https://github.com/vvv017/BASS",
-    accent: "rose"
-  },
-  {
-    title: "bilibili-link-cleaner",
-    eyebrow: "Small Utility - PowerShell",
-    summary:
-      "A focused utility for cleaning shared Bilibili links. Small scripts like this are where I practice turning small annoyances into reusable tools.",
-    tags: ["PowerShell", "Automation", "Utility"],
-    url: "https://github.com/vvv017/bilibili-link-cleaner",
+      "A biometric vehicle-access prototype combining a React dashboard, local face enrollment and verification, Raspberry Pi device APIs, and ESP32 hardware work.",
+    tags: ["React", "Python", "OpenCV", "Raspberry Pi", "ESP32"],
+    links: [
+      { label: "View team repository", url: "https://github.com/SJSU-CMPE-195/group-project-team-face-id" }
+    ],
     accent: "sky"
   },
   {
-    title: "Project Swarm",
-    eyebrow: "Personal Project | Godot 4 | Procedural Systems | AI-assisted Development",
+    title: "LikeHome",
+    eyebrow: "Frontend contributor · CMPE 165 team project",
     summary:
-      "An atmospheric late-night roadtrip game about driving toward a destination with someone beside you.",
-    tags: ["Godot4", "Indie Development", "Game"],
-    devlogUrl: "https://www.youtube.com/watch?v=bv0qrKVAqB8&list=PLXqCA3d5cOLfXsxVJ6nG1i8VzQtS53BgS&pp=sAgC",
-    accent: "lavender",
-       }
+      "Contributed to the user-facing interface of a full-stack team project with a TypeScript and CSS frontend backed by Python services.",
+    tags: ["Team Project", "Frontend", "TypeScript", "CSS", "Python"],
+    links: [
+      {
+        label: "View team repository · access may be restricted",
+        url: "https://github.com/arjunsudheer/cmpe-165-likehome"
+      }
+    ],
+    accent: "lavender"
+  },
+  {
+    title: "bilibili-link-cleaner",
+    eyebrow: "Owner · Maintainer · Published extension",
+    summary:
+      "A privacy-friendly Chrome and Edge extension that strips tracking parameters from copied Bilibili share links. Processing stays in the browser and the extension is published in the Chrome Web Store.",
+    tags: ["Manifest V3", "Browser Extension", "Local-only", "Automation"],
+    links: [
+      { label: "View repository", url: "https://github.com/vvv017/bilibili-link-cleaner" },
+      { label: "Chrome Web Store", url: "https://chromewebstore.google.com/detail/fmoffogeilchfilofdkccphjadfoacnp" }
+    ],
+    accent: "honey"
+  },
+  {
+    title: "NTE Drive Calculator",
+    eyebrow: "Upstream contributor · July 2026",
+    summary:
+      "Contributed optional low-score drive discard marking to an upstream Python desktop calculator for scanning, evaluating, and assigning equipment in Neverness to Everness.",
+    tags: ["Python", "Desktop Tool", "Upstream Contribution"],
+    links: [
+      { label: "View upstream repository", url: "https://github.com/hxwd94666/NTE-Drive-Calculator" },
+      { label: "View contribution", url: "https://github.com/hxwd94666/NTE-Drive-Calculator/commit/c68a7e5d6c0f61fa87ed7f1ad725c2940b05ae92" }
+    ],
+    accent: "lavender"
+  }
 ];
 
 const repos = [
   {
-    name: "Likehome",
-    description: "LikeHome team project with frontend and backend folders.",
-    language: "TypeScript / Python",
-    updated: "Team repo",
-    url: "https://github.com/arjunsudheer/cmpe-165-likehome"
+    name: "WhiteDragon",
+    description: "Expression-avatar userscript for ChatGPT with live streaming-state changes.",
+    role: "Owner · Maintainer",
+    language: "JavaScript",
+    updated: "Pushed Aug 18, 2026",
+    url: "https://github.com/vvv017/WhiteDragon"
+  },
+  {
+    name: "Codex-Neuro-Dream-Skin",
+    description: "Reversible pixel-art theme and local injection workflow for Codex on Windows.",
+    role: "Owner · Maintainer",
+    language: "PowerShell",
+    updated: "Pushed Aug 12, 2026",
+    url: "https://github.com/vvv017/Codex-Neuro-Dream-Skin"
+  },
+  {
+    name: "POE-Filter-Audio-Manager",
+    description: "Local Path of Exile audio workflow with a lightweight Windows build.",
+    role: "Owner · Maintainer",
+    language: "JavaScript",
+    updated: "Pushed Jul 30, 2026",
+    url: "https://github.com/vvv017/POE-Filter-Audio-Manager"
   },
   {
     name: "bilibili-link-cleaner",
-    description: "Make shared Bilibili links cleaner.",
-    language: "PowerShell",
-    updated: "May 2026",
+    description: "Published Manifest V3 extension for cleaning copied Bilibili links locally.",
+    role: "Owner · Maintainer",
+    language: "Browser extension",
+    updated: "Pushed May 17, 2026",
     url: "https://github.com/vvv017/bilibili-link-cleaner"
   },
   {
-    name: "BASS",
-    description: "Biometric vehicle access prototype using facial recognition for authentication.",
-    language: "JavaScript",
-    updated: "May 2026",
-    url: "https://github.com/vvv017/BASS"
+    name: "group-project-team-face-id",
+    description: "B.A.S.S. team repository for a biometric vehicle-access prototype.",
+    role: "Organization team member",
+    language: "JavaScript / Python",
+    updated: "5 merged PRs · Apr 2026",
+    url: "https://github.com/SJSU-CMPE-195/group-project-team-face-id"
   },
   {
-    name: "WeatherStationJava",
-    description: "Java coursework/project repo focused on weather station logic.",
-    language: "Java",
-    updated: "Dec 2024",
-    url: "https://github.com/vvv017/WeatherStationJava"
+    name: "cmpe-165-likehome",
+    description: "Full-stack CMPE 165 team project with my contribution focused on the frontend.",
+    role: "Frontend contributor",
+    language: "TypeScript / Python",
+    updated: "Repository access may be restricted",
+    url: "https://github.com/arjunsudheer/cmpe-165-likehome"
+  },
+  {
+    name: "NTE-Drive-Calculator",
+    description: "Upstream Python desktop tool with my discard-marking contribution.",
+    role: "Upstream contributor",
+    language: "Python",
+    updated: "Contributed Jul 2026",
+    url: "https://github.com/hxwd94666/NTE-Drive-Calculator"
   },
   {
     name: "WanderPaw",
-    description: "Virtual desktop pet project with a UI/frontend focus.",
+    description: "Client/server virtual-pet team project in my collaborator footprint.",
+    role: "Collaborator",
     language: "JavaScript",
-    updated: "Sep 2024",
-    url: "https://github.com/vvv017/WanderPaw"
-  },
-   {
-    name: "POE-Filter-Audio-Manager",
-    description: "Local Path of Exile filter audio manager.",
-    language: "JavaScript",
-    updated: "May 2026",
-    url: "https://github.com/vvv017/POE-Filter-Audio-Manager"
+    updated: "My activity through Dec 2024",
+    url: "https://github.com/div-dhingra/WanderPaw"
   }
 ];
 
@@ -106,7 +165,14 @@ function renderProjects() {
           <div class="tags">
             ${project.tags.map((tag) => `<span>${tag}</span>`).join("")}
           </div>
-          ${project.title === "Project Swarm" ? `<a href="${project.devlogUrl}" aria-label="View Devlog for ${project.title}" class="devlog-button">Devlog</a>` : ""}
+          <div class="card-links">
+            ${project.links
+              .map(
+                (link) =>
+                  `<a href="${link.url}" target="_blank" rel="noreferrer" aria-label="${link.label} for ${project.title}">${link.label}</a>`
+              )
+              .join("")}
+          </div>
         </article>
       `
     )
@@ -119,6 +185,7 @@ function renderRepos() {
       (repo) => `
         <article class="repo-card">
           <div>
+            <p class="repo-role">${repo.role}</p>
             <h3>${repo.name}</h3>
             <p>${repo.description}</p>
           </div>
@@ -126,7 +193,7 @@ function renderRepos() {
             <span>${repo.language}</span>
             <span>${repo.updated}</span>
           </div>
-          <a href="${repo.url}" aria-label="Open ${repo.name} on GitHub">View on GitHub</a>
+          <a href="${repo.url}" target="_blank" rel="noreferrer" aria-label="Open ${repo.name} on GitHub">View on GitHub</a>
         </article>
       `
     )

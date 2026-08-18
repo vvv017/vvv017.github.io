@@ -509,6 +509,27 @@ p {
   font-weight: 900;
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: end;
+}
+
+.repo-role {
+  display: inline-flex;
+  min-height: 27px;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  color: #23705f;
+  background: var(--mint-soft);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
 .split-section {
   display: grid;
   grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
