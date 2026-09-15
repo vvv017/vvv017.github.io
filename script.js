@@ -1,85 +1,67 @@
 const projects = [
   {
-    title: "WhiteDragon",
-    eyebrow: "Owner · Maintainer · Current release 4.5.0",
+    title: "VTuber Studio",
+    eyebrow: "Backend Developer &amp; Operations Manager · 2026–Present",
     summary:
-      "A customizable expression-avatar userscript for ChatGPT. It switches expressions while responses stream, supports per-Project avatar packs, and keeps all user art in local browser storage.",
-    tags: ["JavaScript", "Userscript", "ChatGPT UI", "IndexedDB"],
-    links: [
-      { label: "View repository", url: "https://github.com/vvv017/WhiteDragon" }
-    ],
+      "Built TypeScript APIs on Cloudflare Workers with D1/R2 for weekly schedules, time-zone conflict detection, Discord OAuth, and role-based access. Added version checks and idempotency keys to guard against duplicate or outdated announcements, and consolidated the React scheduler and Worker API into a Bun monorepo with shared contracts and independent studio website deployment.",
+    tags: ["TypeScript", "Bun", "Cloudflare Workers", "D1/R2", "Discord OAuth"],
+    links: [],
     accent: "rose"
   },
   {
-    title: "Codex Neuro Dream Skin",
-    eyebrow: "Owner · Maintainer · Visual adaptation",
+    title: "AI Content Manager",
+    eyebrow: "Full-Stack Developer · Jun 2026–Present",
     summary:
-      "An unofficial dark pixel-art theme for the Windows Codex desktop app, with reversible installation, local-only CDP injection, distinct screen artwork, and guarded restore flows.",
-    tags: ["PowerShell", "JavaScript", "CSS", "Windows"],
-    links: [
-      { label: "View repository", url: "https://github.com/vvv017/Codex-Neuro-Dream-Skin" }
-    ],
+      "Built a React/TypeScript workspace with Node.js and PostgreSQL for projects, tasks, media uploads, AI-assisted transcription, video analysis, and highlight suggestions. Implemented database-backed job queues, retry tracking, revocable sessions, server-side OAuth state, and encrypted provider tokens, with Docker packaging and CI checks for migrations, types, builds, and integration smoke tests.",
+    tags: ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma", "Docker"],
+    links: [],
     accent: "lavender"
   },
   {
-    title: "POE-Filter-Audio-Manager",
-    eyebrow: "Owner · Maintainer · Desktop utility",
-    summary:
-      "A bilingual local audio manager for Path of Exile filters, with previews, rule-based renaming, duplicate handling, and a lightweight Windows desktop build through Pake and Tauri.",
-    tags: ["JavaScript", "Tauri / Pake", "Local Files", "Bilingual UI"],
-    links: [
-      { label: "View repository", url: "https://github.com/vvv017/POE-Filter-Audio-Manager" }
-    ],
-    accent: "mint"
-  },
-  {
     title: "B.A.S.S.",
-    eyebrow: "Team member · SJSU CMPE 195",
+    eyebrow: "Primary Frontend &amp; Android Developer · Sep 2025–Present",
     summary:
-      "A biometric vehicle-access prototype combining a React dashboard, local face enrollment and verification, Raspberry Pi device APIs, and ESP32 hardware work.",
-    tags: ["React", "Python", "OpenCV", "Raspberry Pi", "ESP32"],
+      "Built the React frontend for a Raspberry Pi vehicle-access prototype, connecting facial enrollment, verification, and device controls to FastAPI endpoints. Developed a native Kotlin/Jetpack Compose app with QR-code pairing, automatic device discovery, and phone-camera face enrollment.",
+    tags: ["React", "Kotlin", "Jetpack Compose", "FastAPI", "InsightFace", "SQLite", "Raspberry Pi"],
     links: [
-      { label: "View team repository", url: "https://github.com/SJSU-CMPE-195/group-project-team-face-id" }
+      {
+        label: "View team repository",
+        url: "https://github.com/SJSU-CMPE-195/group-project-team-face-id"
+      }
     ],
     accent: "sky"
   },
   {
-    title: "LikeHome",
-    eyebrow: "Frontend contributor · CMPE 165 team project",
+    title: "Swarm",
+    eyebrow: "Procedural 3D Road Trip Game Prototype · May 2026–Present",
     summary:
-      "Contributed to the user-facing interface of a full-stack team project with a TypeScript and CSS frontend backed by Python services.",
-    tags: ["Team Project", "Frontend", "TypeScript", "CSS", "Python"],
+      "Developed a Godot 4 prototype with on-foot exploration, vehicle driving, interactive cockpit controls, and companion state transitions. Built a deterministic, chunk-streamed world across forest, countryside, and coastal regions. Used Codex, godot-ai, and Blender MCP to iterate on gameplay and models, with explicit state ownership and typed world interfaces that preserve seed-specific saves.",
+    tags: ["Godot 4", "GDScript", "Blender", "Codex", "MCP"],
     links: [
       {
-        label: "View team repository · access may be restricted",
-        url: "https://github.com/arjunsudheer/cmpe-165-likehome"
+        label: "Watch devlog",
+        url: "https://www.youtube.com/watch?v=bv0qrKVAqB8&list=PLXqCA3d5cOLfXsxVJ6nG1i8VzQtS53BgS"
       }
     ],
-    accent: "lavender"
+    accent: "mint"
   },
   {
-    title: "bilibili-link-cleaner",
-    eyebrow: "Owner · Maintainer · Published extension",
+    title: "Bili Share Link Cleaner",
+    eyebrow: "Published Chrome Extension · May 2026",
     summary:
-      "A privacy-friendly Chrome and Edge extension that strips tracking parameters from copied Bilibili share links. Processing stays in the browser and the extension is published in the Chrome Web Store.",
-    tags: ["Manifest V3", "Browser Extension", "Local-only", "Automation"],
+      "Published a Chrome/Edge extension that removes Bilibili tracking parameters, preserves surrounding message text, and processes clipboard data locally. 160+ installs as of September 2026.",
+    tags: ["JavaScript", "Manifest V3", "Chrome Extension APIs", "Local Processing"],
     links: [
-      { label: "View repository", url: "https://github.com/vvv017/bilibili-link-cleaner" },
-      { label: "Chrome Web Store", url: "https://chromewebstore.google.com/detail/fmoffogeilchfilofdkccphjadfoacnp" }
+      {
+        label: "Chrome Web Store",
+        url: "https://chromewebstore.google.com/detail/bili-share-link-cleaner/fmoffogeilchfilofdkccphjadfoacnp"
+      },
+      {
+        label: "View source",
+        url: "https://github.com/vvv017/bilibili-link-cleaner"
+      }
     ],
     accent: "honey"
-  },
-  {
-    title: "NTE Drive Calculator",
-    eyebrow: "Upstream contributor · July 2026",
-    summary:
-      "Contributed optional low-score drive discard marking to an upstream Python desktop calculator for scanning, evaluating, and assigning equipment in Neverness to Everness.",
-    tags: ["Python", "Desktop Tool", "Upstream Contribution"],
-    links: [
-      { label: "View upstream repository", url: "https://github.com/hxwd94666/NTE-Drive-Calculator" },
-      { label: "View contribution", url: "https://github.com/hxwd94666/NTE-Drive-Calculator/commit/c68a7e5d6c0f61fa87ed7f1ad725c2940b05ae92" }
-    ],
-    accent: "lavender"
   }
 ];
 
@@ -152,7 +134,7 @@ const repos = [
 
 const projectGrid = document.querySelector("#project-grid");
 const repoGrid = document.querySelector("#repo-grid");
-const email = "devampy79@gmail.com";
+const email = "sozecho784566@gmail.com";
 
 function renderProjects() {
   projectGrid.innerHTML = projects
